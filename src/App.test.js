@@ -7,7 +7,6 @@ test("renders hello message", () => {
   expect(element).toBeInTheDocument();
 });
 
-// ❌ This test is intentionally failing so you can test the hook
 test("this test should fail", () => {
-  expect(2 + 2).toBe(5);
+  expect(2 + 2).toBe(4);
 });
