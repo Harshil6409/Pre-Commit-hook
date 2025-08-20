@@ -3,7 +3,7 @@ import App from "./App";
 
 test("renders hello message", () => {
   render(<App />);
-  const element = screen.getByText(/Hello Pre-Commit Hook 🚀/i);
+  const element = screen.getByText(/Hello Pre-Commit Hook/i);
   expect(element).toBeInTheDocument();
 });
 
