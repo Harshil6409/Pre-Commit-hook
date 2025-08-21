@@ -36,7 +36,7 @@ cd pre-commit-using-react
 
 -> Configure Pre-Commit Hook
     Edit .husky/pre-commit and add:
-        echo "Running tests before commit..." //any message to check where we are doing correct or not
+        echo "Running tests before commit..." //any message to check wheather we are doing correct or not
         npm test -- --watchAll=false
 
 -> Make it executable
