@@ -23,9 +23,9 @@
 ---
 
 ## How to Apply
-
-### 1. Create React Project
 ```bash
+-> Create React Project
+
 npx create-react-app pre-commit-using-react
 cd pre-commit-using-react
 
@@ -41,6 +41,7 @@ cd pre-commit-using-react
 
 -> Make it executable
     >>chmod +x .husky/pre-commit
+```
 
 Now save all changes and make a test to fail intentionally.
 then try to commit the change
